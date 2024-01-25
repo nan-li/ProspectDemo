@@ -1,0 +1,50 @@
+PODS:
+  - OneSignal/OneSignal (5.1.0):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalCore (5.1.0)
+  - OneSignal/OneSignalExtension (5.1.0):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalInAppMessages (5.1.0):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalNotifications (5.1.0):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOSCore (5.1.0):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalOutcomes (5.1.0):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalUser (5.1.0):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - OneSignal/OneSignal (< 6.0, >= 5.0.0)
+  - OneSignal/OneSignalInAppMessages (< 6.0, >= 5.0.0)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - OneSignal
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  OneSignal: 2c0452f2f064dd2d94fb06d1dd6644d42c3d1b9d
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: c0c258b2698e4463dd73da414d4538ffb0daa4e2
+
+COCOAPODS: 1.14.3
